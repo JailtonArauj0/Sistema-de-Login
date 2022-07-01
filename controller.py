@@ -4,8 +4,17 @@ from sqlalchemy.orm import sessionmaker
 import hashlib
 from models import Cadastro
 
+#Ajuste as informações de acordo com o seu banco de dados local
+USUARIO = "root"
+SENHA = ""
+HOST = "localhost"
+BANCO = "login2"
+PORT = "3306"
+
+CONN = f"mysql+pymysql://{USUARIO}:{SENHA}@{HOST}:{PORT}/{BANCO}"
+
 def RetornaSession():
-    engine = create_engine("mysql+pymysql://root:@localhost/login2", echo=True)
+    engine = create_engine(CONN, echo=True)
     Session = sessionmaker(engine)
     session = Session()
     return session

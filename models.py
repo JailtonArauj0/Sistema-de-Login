@@ -3,8 +3,16 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import pymysql
 
+#Ajuste as informações de acordo com o seu banco de dados local
+USUARIO = "root"
+SENHA = ""
+HOST = "localhost"
+BANCO = "login2"
+PORT = "3306"
 
-engine = create_engine("mysql+pymysql://root:@localhost/login2", echo=True)
+CONN = f"mysql+pymysql://{USUARIO}:{SENHA}@{HOST}:{PORT}/{BANCO}"
+
+engine = create_engine(CONN, echo=True)
 Session = sessionmaker(engine)
 session = Session()
 Base = declarative_base()

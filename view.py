@@ -36,7 +36,7 @@ while True:
                 print('Email já cadastrado no sistema')
 
         elif escolha == 3:
-            print('Volte Sempre')
+            print('Volte Sempre!')
             break
         else:
             print('Opção incorreta, tente novamente!')
