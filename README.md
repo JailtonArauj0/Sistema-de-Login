@@ -74,9 +74,9 @@ $ python3 view.py
 
 <br>
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jailton-araujo/)
+[![Linkedin Badge](https://img.shields.io/badge/-Jailton-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jailton-araujo/)](https://www.linkedin.com/in/jailton-araujo/)
 
 <hr>
-<br>
+
 
 ⚠️ Projeto em construção ⚠️
