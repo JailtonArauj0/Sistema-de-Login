@@ -7,7 +7,7 @@ import pymysql
 USUARIO = "root"
 SENHA = ""
 HOST = "localhost"
-BANCO = "login2"
+BANCO = "testes"
 PORT = "3306"
 
 CONN = f"mysql+pymysql://{USUARIO}:{SENHA}@{HOST}:{PORT}/{BANCO}"
